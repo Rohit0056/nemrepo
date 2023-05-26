@@ -19,6 +19,11 @@ pipeline {
         sh 'sudo cp -R * /var/www/html'
       }
     }
+    stage('PRINTING') {
+      steps {
+        sh 'echo \'ROHIT done his first BLUE OCEAN job\''
+      }
+    }
 
   }
 }
